@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+/* copy input to output; 1st version */
+
+int main()
+{
+	int c;
+	int oldc;
+
+	while ((c = getchar()) !=EOF) {
+		putchar(c);
+	}
+	printf("%d\n", c);
+}
