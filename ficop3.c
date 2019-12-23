@@ -13,7 +13,7 @@ int main()
 	while ((c = getchar()) !=EOF) {
 		if (c = ' ') ++blanks;
 		if (c = '\n') ++ newlines;
-		if (c = '\t') ++ tabs
+		if (c = '\t') ++ tabs;
 		putchar(c);
 	}
 	printf("blanks = %d, newlines = %d, tabs = %d\n", blanks,newlines,tabs);
