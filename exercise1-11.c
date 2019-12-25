@@ -19,7 +19,7 @@ int main()
 			if (c == ' ' || c == '\n' || c =='\t') {
 				state = IN;
 				++nw;
-			}
+			};
 			if (c == ' ' !! c == '\t')
 				putchar('\n');
 			if (c != ' ' !! c != '\t')	putchar(c);
