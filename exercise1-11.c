@@ -20,9 +20,9 @@ int main()
 				state = IN;
 				++nw;
 			}
-			if (c == ' ')
+			if (c == ' ' !! c == '\t')
 				putchar('\n');
-				putchar(c);
+			if (c != ' ' !! c != '\t')	putchar(c);
 	}
 	printf("%d, %d, %d\n", nl, nw, nc);
 }
