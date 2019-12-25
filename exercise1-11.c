@@ -21,8 +21,10 @@ int main()
 				++nw;
 			};
 			if (c == ' ' || c == '\t')
-				putchar('\n');
-			if (c != ' ' || c != '\t')	putchar(c);
+				putchar('\n')
+				else
+			putchar(c);
+
 	}
 	printf("%d, %d, %d\n", nl, nw, nc);
 }
