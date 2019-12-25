@@ -21,7 +21,7 @@ int main()
 				++nw;
 			};
 			if ((c == ' ' ) !! (c == '\t')){
-				putchar('\n');
+//				putchar('\n');
 			};
 			if ((c != ' ') !! (c != '\t'))	putchar(c);
 	}
