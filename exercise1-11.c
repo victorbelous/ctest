@@ -21,8 +21,8 @@ int main()
 				++nw;
 			}
 			if (c == ' ')
-				printchar('\n');
-				printchar(c);
+				putchar('\n');
+				putchar(c);
 	}
 	printf("%d, %d, %d\n", nl, nw, nc);
 }
